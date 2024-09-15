@@ -11,6 +11,5 @@ if (!argv[3]) {
   }
   unique.sort(compare);
   const number = unique.length;
-
   console.log(parseInt(unique[number - 2]));
 }
